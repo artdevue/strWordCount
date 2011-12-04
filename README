@@ -1,0 +1,7 @@
+Filter strWordCount is intended for wrapping in a span tag words in the pagetitle
+
+For example: pagetitle = Offering Comprehensive ProjectsA simple by default call filter [[+pagetitle:strWordCount]]At the output we get Offering Comprehensive Projects
+
+The available options[[+pagetitle:strWordCount=`2,1`]] 2 - Serial number of words and 1 - The number of spaces after a span tag.At the output we get Offering Comprehensive Projects
+
+[[+pagetitle:strWordCount=`1`]] If you omit the second parameter is equal to 0At the output we get OfferingComprehensive Projects
